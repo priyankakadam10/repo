@@ -14,7 +14,7 @@ Headers ={
   "Accept":"application/vnd.github.v3+json"
 }
 
-get_url = f"https://api.github.com/repo/{owner}/{Repo}/contents/{input_path}"
+get_url = f"https://api.github.com/repos/{owner}/{Repo}/contents/{input_path}"
 
 response = requests.get(get_url,headers=Headers)
 
