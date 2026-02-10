@@ -1,7 +1,7 @@
 import requests
 import base64
 
-GitHub_Token = "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"
+GitHub_Token = "SECRETE_TOKEN"
 owner = "priyankakadam10"
 Repo = "repo"
 Branch = "main"
